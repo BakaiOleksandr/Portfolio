@@ -2,21 +2,25 @@
   --color-links-active: blue;
   --links-color: black;
   --background-color: beige;
+  --footer-text:beige;
+  --footer-links:#aaa;
 }
-*{padding: 0;
-margin: 0;}
+* {
+  padding: 0;
+  margin: 0;
+}
 .app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-.content{
+.content {
   flex: 1;
 }
 
 html {
-  font-family: FreeMono, monospace;
-  font-weight: 400;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
 }
 
 h1 {
@@ -25,6 +29,7 @@ h1 {
 a {
   color: var(--links-color);
 }
-
-
+.active {
+  color: var(--color-links-active);
+}
 

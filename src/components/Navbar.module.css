@@ -18,3 +18,7 @@
 .active {
   color: var(--color-links-active);
 }
+.navbar a:hover{
+ color: var(--color-links-active);
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+}

@@ -6,7 +6,6 @@ export default function Footer() {
     <div className={styles.myFooter}>
       <div className={styles.myInfo}>
         <p>© {year} Bakai Oleksandr</p>
-        <p>The Netherlands</p>
       </div>
       <div className={styles.myLinks}>
         <a

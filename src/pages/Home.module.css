@@ -1,0 +1,41 @@
+.homeContainer{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  align-items: center;
+}
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+}
+.topText {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.homeText {
+  max-width: 30rem;
+  margin: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 400;
+  }
+.homeList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.homeList a{
+  text-decoration: none;
+}
+
