@@ -1,0 +1,20 @@
+.navbar {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-around;
+  /* gap: 1.5rem; */
+  white-space: nowrap;
+  padding: 1rem;
+  /* border: 0.5rem solid red; */
+}
+.navbar a {
+  /* display: block; */
+  text-decoration: none;
+  /* padding: 1rem; */
+}
+.navbar a:active {
+  color: var(--links-color);
+}
+.active {
+  color: var(--color-links-active);
+}

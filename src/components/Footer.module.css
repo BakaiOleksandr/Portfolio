@@ -1,0 +1,28 @@
+/* Footer */
+.myFooter {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.myLinks{
+  display: flex;
+  gap: 16px;
+}
+.myInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.myLinks a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.myLinks a:hover {
+  color: var(--color-links-active);
+}

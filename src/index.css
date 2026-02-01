@@ -1,0 +1,30 @@
+:root {
+  --color-links-active: blue;
+  --links-color: black;
+  --background-color: beige;
+}
+*{padding: 0;
+margin: 0;}
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  flex: 1;
+}
+
+html {
+  font-family: FreeMono, monospace;
+  font-weight: 400;
+}
+
+h1 {
+  padding: 1rem;
+}
+a {
+  color: var(--links-color);
+}
+
+
+
