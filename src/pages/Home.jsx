@@ -13,13 +13,16 @@ export default function Home() {
           HTML, CSS, JavaScript, and React. I enjoy turning ideas into
           functional, visually appealing projects.
         </p>
+        <p>Feel free to explore the sections below:</p>
       </div>
-      
-      <div className={styles.homeList}><Link to="/">Home</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/about">About me</Link>
-      <Link to="/contacts">Contacts</Link>
-      <Link to="/news">News</Link></div>
+
+      <div className={styles.homeList}>
+        <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/about">About me</Link>
+        <Link to="/contacts">Contacts</Link>
+        <Link to="/news">News</Link>
+      </div>
     </div>
   );
 }
