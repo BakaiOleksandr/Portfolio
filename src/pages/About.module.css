@@ -1,0 +1,35 @@
+.aboutMainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.aboutTextContainer {
+  margin-top: 2rem;
+  text-align: left;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.aboutTextContainer p{
+    margin-bottom: 1rem;
+}
+.aboutHeader {
+  margin-bottom: 1rem;
+}
+.aboutList {
+  list-style: none;
+  padding-left: 0;
+}
+.aboutList li {
+  position: relative;
+  padding-left: 1rem;
+}
+.aboutList li::before {
+  content: '-';
+  position: absolute;
+  left: 0;
+}
