@@ -10,7 +10,7 @@ export default function Home() {
         <div className={styles.topText}>Hello! My name is Oleksandr. </div>
         <p>
           I specialize in creating responsive and user-friendly websites using
-          HTML, CSS, JavaScript, and React. I enjoy turning ideas into
+          HTML, CSS, JavaScript, and React.<br/>I enjoy turning ideas into
           functional, visually appealing projects.
         </p>
         <p>Feel free to explore the sections below:</p>

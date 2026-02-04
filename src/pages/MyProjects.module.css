@@ -15,6 +15,9 @@
   flex-direction: column;
   border: 0.1rem solid grey;
 }
+.projectsTextConteiner a{
+  word-break: break-word;
+}
 .projectsTextConteiner:hover {
 box-shadow:2px 2px 5px rgba(0, 0, 0, 0.3) ;
 }

@@ -8,14 +8,14 @@ export default function MyProjects() {
         <div className={styles.projectsHeader}>
           Book Library app
           <br />
-          (React,Redux)
+          (React, Redux)
         </div>
         <p className={styles.text}>
           After finishing the bootcamp, I continued learning and completed a
           React & Redux course on Udemy. As a result, I created a Book Library
           app using React & Redux.
         </p>
-        <a href="https://booklibraryappredux.netlify.app/" target="blank">
+        <a href="https://booklibraryappredux.netlify.app/" target="_blank">
           https://booklibraryappredux.netlify.app/
         </a>
       </div>
@@ -26,12 +26,14 @@ export default function MyProjects() {
           <br />
           (Vite, Node.js, MongoDB, NPM)
         </div>
-        A language quiz game where the player translates words from one language
-        to another. Words are loaded from a backend database. The player sees
-        one word at a time and must type the correct translation. Project is
-        still in progress — I created multi-language functionality myself using
-        languages-context and JSON files, no npm translators yet.
-        <a href="https://meek-kangaroo-b79b57.netlify.app/" target="blank">
+        <p className={styles.text}>
+          A language quiz game where the player translates words from one
+          language to another. Words are loaded from a backend database. The
+          player sees one word at a time and must type the correct translation.
+          Project is still in progress — I created multi-language functionality
+          myself using languages-context and JSON files, no npm translators yet.
+        </p>
+        <a href="https://meek-kangaroo-b79b57.netlify.app/" target="_blank">
           https://meek-kangaroo-b79b57.netlify.app/
         </a>
       </div>
@@ -42,11 +44,13 @@ export default function MyProjects() {
           <br />
           (Vanilla JS, HTML, CSS)
         </div>
-        Quiz for translation words in different languages by typing them. With
-        10 minutes timer. Also player will see some animation according to score
-        and at the end - words to memorise. This game is useful for myself
-        because I am currently learning Dutch language.
-        <a href="https://bakaioleksandr.github.io/" target="blank">
+        <p className={styles.text}>
+          Quiz for translation words in different languages by typing them. With
+          10 minutes timer. Also player will see some animation according to
+          score and at the end - words to memorise. This game is useful for
+          myself because I am currently learning Dutch language.
+        </p>
+        <a href="https://bakaioleksandr.github.io/" target="_blank">
           https://bakaioleksandr.github.io/
         </a>
       </div>
@@ -57,11 +61,13 @@ export default function MyProjects() {
           <br />
           (Vanilla JS, HTML, CSS)
         </div>
-        This is something that I often use for websites navigation. Just create
-        a folder and then add there a copied links and name them.
+        <p className={styles.text}>
+          This is something that I often use for websites navigation. Just
+          create a folder and then add there a copied links and name them.
+        </p>
         <a
           href="https://bakaioleksandr.github.io/Links-Manager/"
-          target="blank"
+          target="_blank"
         >
           https://bakaioleksandr.github.io/Links-Manager/
         </a>
@@ -73,9 +79,11 @@ export default function MyProjects() {
           <br />
           (JS, API, React)
         </div>
-        To better understand API requests and responses, I created a simple
-        Weather App
-        <a href="https://alexb-weather-app.netlify.app/" target="blank">
+        <p className={styles.text}>
+          To better understand API requests and responses, I created a simple
+          Weather App
+        </p>
+        <a href="https://alexb-weather-app.netlify.app/" target="_blank">
           https://alexb-weather-app.netlify.app/
         </a>
       </div>
@@ -87,10 +95,12 @@ export default function MyProjects() {
           <br />
           (Vanilla JS, HTML, CSS)
         </div>
-        A simple ToDo app to practice DOM manipulation.
+        <p className={styles.text}>
+          A simple ToDo app to practice DOM manipulation.
+        </p>
         <a
           href="https://bakaioleksandr.github.io/TODO-VanillaJS/"
-          target="blank"
+          target="_blank"
         >
           https://bakaioleksandr.github.io/TODO-VanillaJS/
         </a>
