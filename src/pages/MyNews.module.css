@@ -1,0 +1,32 @@
+.MyNewsMain {
+  display: flex;
+  justify-content: center;
+}
+.MyNewsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.MyNewsHeader {
+  align-self: center;
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+  text-transform: uppercase;
+  border-bottom: 0.1rem solid rgb(196, 196, 196);
+}
+.MyNewsContainer p {
+  margin: 0 0 1rem 0;
+}
+.MyNewsContainer img {
+  border-radius: 10%;
+  height: auto;
+  width: 105%;
+  object-fit: cover;
+}
+.ImgContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
