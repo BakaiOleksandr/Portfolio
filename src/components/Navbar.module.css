@@ -1,29 +1,32 @@
 .navbar {
-  background-color: var(--background-color);
+  position: relative;
   display: flex;
-  justify-content: space-around;
-  /* gap: 1.5rem; */
-  white-space: nowrap;
+  justify-content: space-evenly;
   padding: 1rem;
-  /* border: 0.5rem solid red; */
-}
-.navbar a {
-  /* display: block; */
-  text-decoration: none;
-  /* padding: 1rem; */
-}
-.navbar a:active {
-  color: var(--links-color);
-}
-.navText {
-  text-decoration: none;
-}
-.active {
-  border-bottom: 0.15rem solid var(--color-links-active);
-  color: var(--color-links-active);
+  background-color: var(--background-color);
 }
 
-.navbar a:hover {
-  color: var(--color-links-active);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+.navbar a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.navLink {
+  position: relative;
+  padding: 0.5rem 0;
+  display: inline-block;
+}
+
+.active {
+  color: blue;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0.7rem;
+  height: 0.15rem;
+  background: var(--color-links-active);
+  border-radius: 0.15rem;
+  left: 0;
+  transition: transform 0.3s ease, width 0.3s ease;
 }
