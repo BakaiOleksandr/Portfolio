@@ -1,7 +1,7 @@
 :root {
-  --color-links-active: blue;
+  --color-links-active: rgb(80, 92, 226);
   --links-color: black;
-  --background-color: beige;
+  --background-color: rgb(222, 227, 246);
   --footer-text:beige;
   --footer-links:#aaa;
 }

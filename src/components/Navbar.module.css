@@ -15,10 +15,15 @@
 .navbar a:active {
   color: var(--links-color);
 }
+.navText {
+  text-decoration: none;
+}
 .active {
+  border-bottom: 0.15rem solid var(--color-links-active);
   color: var(--color-links-active);
 }
-.navbar a:hover{
- color: var(--color-links-active);
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+
+.navbar a:hover {
+  color: var(--color-links-active);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }

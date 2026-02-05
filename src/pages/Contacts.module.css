@@ -1,0 +1,43 @@
+.contactMainContainer {
+  display: flex;
+  justify-content: center;
+}
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.secondContainer p {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.secondContainer span {
+  font-weight: 100;
+}
+.contactsHeader {
+  align-self: center;
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+  text-transform: uppercase;
+  border-bottom: 0.1rem solid rgb(196, 196, 196);
+}
+.contactButtons {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+.contactButtons a {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.contactButtons img {
+  width: fit-content;
+  height: 1.5rem;
+}
+.contactButtons a:hover {
+  transform: translateY(-2px);
+}
