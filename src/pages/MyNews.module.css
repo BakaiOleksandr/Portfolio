@@ -5,7 +5,8 @@
 .MyNewsContainer {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  align-items: flex-start;
+  max-width: 40rem;
 }
 .MyNewsHeader {
   align-self: center;
@@ -29,4 +30,5 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  /* max-width: 40rem; */
 }

@@ -2,8 +2,8 @@
   --color-links-active: rgb(80, 92, 226);
   --links-color: black;
   --background-color: rgb(222, 227, 246);
-  --footer-text:beige;
-  --footer-links:#aaa;
+  --footer-text: beige;
+  --footer-links: #aaa;
 }
 * {
   padding: 0;
@@ -32,4 +32,3 @@ a {
 .active {
   color: var(--color-links-active);
 }
-
