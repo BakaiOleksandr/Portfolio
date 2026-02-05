@@ -8,15 +8,13 @@
   align-items: flex-start;
 }
 .secondContainer span {
-  font-weight: 600;
+  font-weight: 300;
 }
 .secondContainer p {
   margin-bottom: 1rem;
   font-weight: 600;
 }
-.secondContainer span {
-  font-weight: 100;
-}
+
 .contactsHeader {
   align-self: center;
   margin: 2rem 0 2rem 0;
