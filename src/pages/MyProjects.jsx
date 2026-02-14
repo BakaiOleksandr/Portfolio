@@ -20,6 +20,24 @@ export default function MyProjects() {
         </a>
       </div>
       <div className={styles.projectsTextConteiner}>
+        {/* Dictionary App */}
+        <div className={styles.projectsHeader}>
+          Dictionary App
+          <br />
+          (Vite, Node.js, MongoDB, Netlify + Render)
+        </div>
+        <p className={styles.text}>
+          A Dutch dictionary app where users can add words,
+          translations, and play a quiz game to practice vocabulary. Backend
+          uses Node.js and MongoDB, deployed on Render. Frontend uses Vite and
+          React, deployed on Netlify.
+        </p>
+        <a href="https://dutch-dictionary-app.netlify.app/" target="_blank">
+          https://dutch-dictionary-app.netlify.app/
+        </a>
+      </div>
+
+      <div className={styles.projectsTextConteiner}>
         {/* Language Quiz Game 2.0 */}
         <div className={styles.projectsHeader}>
           Language Quiz Game 2.0
